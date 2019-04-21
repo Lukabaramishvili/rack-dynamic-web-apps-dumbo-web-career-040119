@@ -7,6 +7,8 @@ class Application
     num_2 = Kernel.rand(1..20)
     num_3 = Kernel.rand(1..20)
     
+    resp.write "#{num_1"
+    
     if num_1 == num2 && num_2 == num_3
       resp.write "You Win"
     else 
@@ -18,9 +20,3 @@ class Application
   
 end 
     
-    
-    resp.write "Hello, World"
-    resp.finish
-  end
-
-end
